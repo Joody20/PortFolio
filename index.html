@@ -7,16 +7,10 @@
     <title>주다영 (DaYeong)</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="src/img/heart.png"
-    />
+    <link rel="icon" type="image/png" sizes="16x16" href="src/img/heart.png" />
     <script src="http://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.34/moment-timezone-with-data.min.js"></script>
-
   </head>
   <body>
     <main id="app">
@@ -78,7 +72,7 @@
               </div>
               <div>
                 <dt>학교/전공</dt>
-                <dd>광운대학교/정보융합학부</dd>
+                <dd>광운대학교/정보융합학부 데이터사이언스전공</dd>
               </div>
             </dl>
             <div class="btn-about">
@@ -93,83 +87,94 @@
         </div>
       </section>
 
-
       <section class="section-project">
         <a name="project"></a>
-          <h2>Project.</h2>
-          <article class="box-project">
-            <div class="img-box">
-              <img
-                 class="img-project"
-                 src="src/img/img_project_1.1.png"
-                 alt="두번째 프로젝트 이미지"
-               />
-              <img
-                 class="img-project-hover"
-                 src="src/img/img_project_1.2.png"
-                 alt="hover 이미지"
-              /> 
-            </div>
-            <div class="txt-project">
-              <h3>타이머 게임</h3>
-              <dl>
-                <dt>기간</dt>
-                <dd>2024.03</dd>
-                <dt>설명</dt>
-                <dd>난이도 마다 타이머 시간을 맞추는 게임입니다.</dd>
-                <dt>사용 기술</dt>
-                <dd>React</dd><br><br><br><br>
-                <dd style="font-size: 15px; color:#adadad;"> ( 마우스를 갖다대면 다른 이미지도 보실 수 있습니다. )</dd>
-              </dl>
-            </div>
-          </article>
+        <h2>Project.</h2>
+        <article class="box-project">
+          <div class="img-box">
+            <img
+              class="img-project"
+              src="src/img/img_project_1.1.png"
+              alt="두번째 프로젝트 이미지"
+            />
+            <img
+              class="img-project-hover"
+              src="src/img/img_project_1.2.png"
+              alt="hover 이미지"
+            />
+          </div>
+          <div class="txt-project">
+            <h3>타이머 게임</h3>
+            <dl>
+              <dt>기간</dt>
+              <dd>2024.03</dd>
+              <dt>설명</dt>
+              <dd>난이도 마다 타이머 시간을 맞추는 게임입니다.</dd>
+              <dt>사용 기술</dt>
+              <dd>React</dd>
+              <br /><br /><br /><br />
+              <dd style="font-size: 15px; color: #adadad">
+                ( 마우스를 갖다대면 다른 이미지도 보실 수 있습니다. )
+              </dd>
+            </dl>
+          </div>
+        </article>
 
-
-          <article class="box-project">
-            <div class="img-box">
-             <img
-                class="img-project"
-                src="src/img/img_project_2.1.png"
-                alt="두 번째 프로젝트 이미지"
-              />
-             <img
-                class="img-project-hover"
-                src="src/img/img_project_2.2.png"
-                alt="hover 이미지"
-             /> 
-            </div>
-            <div class="txt-project">
-              <h3>해야 할 과제</h3>
-              <dl>
-                <dt>기간</dt>
-                <dd>2024.04</dd>
-                <dt>설명</dt>
-                <dd>해야 할 과제들을 기록하고 삭제가 가능한 웹페이지</dd>
-                <dt>사용 기술</dt>
-                <dd>React</dd><br><br><br><br>
-                <dd style="font-size: 15px; color:#adadad;"> ( 마우스를 갖다대면 다른 이미지도 보실 수 있습니다. )</dd>
-              </dl>
-            </div>
-          </article>
+        <article class="box-project">
+          <div class="img-box">
+            <img
+              class="img-project"
+              src="src/img/img_project_2.1.png"
+              alt="두 번째 프로젝트 이미지"
+            />
+            <img
+              class="img-project-hover"
+              src="src/img/img_project_2.2.png"
+              alt="hover 이미지"
+            />
+          </div>
+          <div class="txt-project">
+            <h3>해야 할 과제</h3>
+            <dl>
+              <dt>기간</dt>
+              <dd>2024.04</dd>
+              <dt>설명</dt>
+              <dd>해야 할 과제들을 기록하고 삭제가 가능한 웹페이지</dd>
+              <dt>사용 기술</dt>
+              <dd>React</dd>
+              <br /><br /><br /><br />
+              <dd style="font-size: 15px; color: #adadad">
+                ( 마우스를 갖다대면 다른 이미지도 보실 수 있습니다. )
+              </dd>
+            </dl>
+          </div>
+        </article>
       </section>
-
 
       <section class="section1-project">
         <a name="people"></a>
-          <h2>Guest Book.</h2>
-          <p>저에게 하고 싶은 말을 적어주시면 감사하겠습니다😊🤍</p>
-          <article class="box1-project">
-              <div class="container1">
-                  <form id="guestbookForm">
-                      <input type="text" autocomplete="off" id="nameInput" placeholder="작성자" required>
-                      <textarea id="messageInput" placeholder="작성 내용 (enter를 누르세요.)" required></textarea>
-                  </form>
-                  <div id="guestbookEntries"></div>
-              </div>
-          </article>
+        <h2>Guest Book.</h2>
+        <p>저에게 하고 싶은 말을 적어주시면 감사하겠습니다😊🤍</p>
+        <article class="box1-project">
+          <div class="container1">
+            <form id="guestbookForm">
+              <input
+                type="text"
+                autocomplete="off"
+                id="nameInput"
+                placeholder="작성자"
+                required
+              />
+              <textarea
+                id="messageInput"
+                placeholder="작성 내용 (enter를 누르세요.)"
+                required
+              ></textarea>
+            </form>
+            <div id="guestbookEntries"></div>
+          </div>
+        </article>
       </section>
-
-
 
       <footer id="footer">
         <a name="contact"></a>
@@ -182,21 +187,22 @@
                   class="img-gmail"
                   src="src/img/icon-gmail.png"
                   alt="구글 메일"
-                />G-mail</a>
+                />G-mail</a
+              >
             </li>
             <li>
-              <a href="https://github.com/Joody20/oss_front/tree/main" >
+              <a href="https://github.com/Joody20/oss_front/tree/main">
                 <img
                   class="img-insta"
                   src="src/img/icon-github.png"
                   alt="깃허브 주소"
-                />GitHub</a>
+                />GitHub</a
+              >
             </li>
           </ul>
           <p>© 2024 - DaYeong</p>
         </div>
       </footer>
-
 
       <div class="modal-background">
         <div class="modal">
@@ -204,7 +210,9 @@
           <h4>여행 다니기</h4>
           <img src="src/img/trip.jpeg" alt="여행 이미지" />
           <p>
-            취미는 여행 다니기에요!🛫🏝️ 여행을 다니며 여러 문화를 느끼고, 여러 풍경들을 보며,새로운 마음가짐을 하게 되고, 저 자신에 대해 집중할 수 있는 시간을 만들 수 있어서 저의 삶에 가장 필요한 취미입니다!🩷
+            취미는 여행 다니기에요!🛫🏝️ 여행을 다니며 여러 문화를 느끼고, 여러
+            풍경들을 보며,새로운 마음가짐을 하게 되고, 저 자신에 대해 집중할 수
+            있는 시간을 만들 수 있어서 저의 삶에 가장 필요한 취미입니다!🩷
           </p>
           <button type="button" class="btn-close">Close</button>
         </div>
@@ -215,8 +223,9 @@
           <h4>밝고 계획적이에요!</h4>
           <img src="src/img/img_plan.JPEG" alt="계획 이미지" />
           <p>
-            저는 매사에 긍정적으로 생각하며 아주 밝은 사람이에요. 그리고, 계획 세우는 걸 좋아해요. 그 계획에 따라 실천하는 것을
-            굉장히 중요하게 생각하는 사람이랍니다!📝 참고로 저의 MBTI는 "ISTJ"입니다 !
+            저는 매사에 긍정적으로 생각하며 아주 밝은 사람이에요. 그리고, 계획
+            세우는 걸 좋아해요. 그 계획에 따라 실천하는 것을 굉장히 중요하게
+            생각하는 사람이랍니다!📝 참고로 저의 MBTI는 "ISTJ"입니다 !
           </p>
           <button type="button" class="btn-close">Close</button>
         </div>
